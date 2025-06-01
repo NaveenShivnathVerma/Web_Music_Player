@@ -1,42 +1,96 @@
-Admin Access
-email: admin@admin.com
-password: admin123
-----------------------------------------------------
-Sample User Access
-email: naveen@sample.com
-password: Naveen123
-----------------------------------------------------
-Project: WEB MUSIC PLAYER using PHP/MySQLi
+🎵 WEB MUSIC PLAYER
+A simple and functional web-based music streaming platform built using PHP/MySQLi, inspired by the Spotify Web Application. This project supports both Administrator and Subscriber roles, offering a clean UI and smooth user experience without page refresh interruptions.
 
-About The Project
+👤 User Access
+🔑 Admin Login
+Email: admin@admin.com
 
-The WEB MUSIC PLAYER is a simple project that is inspired by the Spotify Web Application. This system requires system credentials to access all of the data and functionalities of the WEB MUSIC PLAYER. The system has 2 types of users which is the Administrator and the Subscriber. The Admin user can manage all the functionalities of the system including the music uploaded, and playlist of the subscriber user while the Subscriber user can only manage the songs they uploaded and playlist they created but since this also like and music publishing site, the system allows all users to listen all uploaded music or songs and also listen to the playlist songs created by other subscribers and admin. The Subscriber user can also download any song that can be accessed in this system.
+Password: admin123
 
-How the System Works
-The WEB MUSIC PLAYER has a registration form on the Login Page by clicking the "Create New Account". After creating a new account, the system will automatically login to the new subscriber using his/her created credentials. On the "Home Page", the summary numbers of all Genres, Playlist, Songs, Subscriber, Subscriber's Uploaded Songs, and Subscriber's Created Playlist. The Genre page can only be managed by the Admin users which makes the subscribers read the Genre's Details and listen to songs uploaded filtered into the viewed or selected genre. The Playlist Page is the page where the user view, create and manage the playlist. The system navigates to each page without refreshing the window so the music doesn't stop when redirecting other pages.
+👥 Sample User Login
+Email: naveen@sample.com
 
-Features;
-Login Page
-Registration Page
-Home Page
-Manage Music/Songs
-Manage Playlist
-Manage Genres
-Manage Users
-Music Player Panel
+Password: Naveen123
 
-The WEB MUSIC PLAYER was developed using HTML, PHP/MySQLi, CSS, JavaScript (jQuery/Ajax), and Bootstrap for the design. The source code is fully functional and easy to modify or enhance. Follow the instruction below to have an actual experience using this simple project.
+📌 About the Project
+The WEB MUSIC PLAYER is a responsive and lightweight platform that allows users to upload, stream, and manage music online. It is designed with two user roles:
 
-How to Run
-Download the source code and extract the zip file.
-Download or set up any local web server that runs PHP script.
-Open the web-server database and create a new database name it music_db.
-Import the SQL file located in the database folder of the source code.
-Copy and paste the source code to the location where your local web server accessing your local projects. Example for XAMPP('C:\xampp\htdocs')
-Open a web browser and browse the project. E.g [http://localhost/WEB MUSIC PLAYER
+Administrator
 
-I hope this WEB MUSIC PLAYER will help you with what you are looking for, feel free to download and modify the source code.
+Full system access
 
-Explore more on this website for more source codes and tutorials.
+Manage all music files, playlists, genres, and users
 
-Enjoy!
+Subscriber
+
+Manage only their own uploaded songs and created playlists
+
+Can listen to and download any public songs/playlists
+
+Users can also listen to songs from other subscribers or admin, creating a shared music experience.
+
+⚙️ Features
+🔐 User Login and Registration
+
+🏠 Dynamic Home Dashboard
+
+🎵 Upload & Manage Music
+
+🎧 Custom Playlist Management
+
+📁 Genre Filtering and Details View
+
+👥 User Account Management (Admin only)
+
+🎼 Seamless Music Player Panel (no refresh when navigating pages)
+
+💾 Song Download Option
+
+🛠️ Technologies Used
+Backend: PHP (MySQLi)
+
+Frontend: HTML, CSS, Bootstrap
+
+Client-Side: JavaScript, jQuery, AJAX
+
+🚀 How to Run Locally
+Download and Extract the Source Code
+
+Install a Local Web Server (e.g. XAMPP)
+
+Create Database
+
+Open phpMyAdmin
+
+Create a new database named: music_db
+
+Import the SQL file from the database/ folder
+
+Place Project in Server Directory
+
+e.g., C:\xampp\htdocs\WEB MUSIC PLAYER
+
+Run the Application
+
+Open browser and navigate to:
+http://localhost/WEB MUSIC PLAYER
+
+📂 Folder Structure (Highlights)
+cpp
+Copy
+Edit
+WEB MUSIC PLAYER/
+├── assets/
+├── database/
+│   └── music_db.sql
+├── includes/
+├── index.php
+├── login.php
+├── register.php
+└── ...
+📄 License
+This project is open-source and free to use for educational purposes.
+
+🙌 Acknowledgments
+Feel free to explore, modify, and enhance this project as per your requirements. Hope this helps you learn and build better music web applications. If you liked it, ⭐️ star the repo and share!
+
